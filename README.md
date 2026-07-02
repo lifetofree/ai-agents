@@ -125,4 +125,4 @@ A single agent with full write access tends to conflate concerns: it edits the s
 
 ## License
 
-MIT
+[MIT](LICENSE)
