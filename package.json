@@ -1,0 +1,29 @@
+{
+  "name": "simple-sdlc",
+  "version": "1.0.0",
+  "description": "Installer for the simple-sdlc AI agent skill: a seven-role virtual software house with phase-based SDLC, strict file ownership, and TDD workflow.",
+  "type": "module",
+  "bin": {
+    "simple-sdlc": "bin/install.mjs"
+  },
+  "files": [
+    "bin",
+    "simple-sdlc"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "ai-agents",
+    "skill",
+    "sdlc",
+    "tdd"
+  ],
+  "author": "lifetofree",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifetofree/ai-agents.git"
+  }
+}

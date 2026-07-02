@@ -1,0 +1,5 @@
+# Local agent settings (personal, not shared)
+.claude/settings.local.json
+
+# Node
+node_modules/

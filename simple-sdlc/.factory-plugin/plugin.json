@@ -1,0 +1,9 @@
+{
+  "name": "simple-sdlc",
+  "description": "Seven-role virtual software house (Architect, Backend, Frontend, QA, DevOps, PO, Scrum Master) with phase-based SDLC, strict file-ownership boundaries, and TDD workflow. Use when implementing features, planning sprints, writing requirements, designing architecture, reviewing code, or deploying in a Cloudflare Workers + D1 + React project.",
+  "version": "1.0.0",
+  "author": {
+    "name": "lifetofree"
+  },
+  "license": "MIT"
+}

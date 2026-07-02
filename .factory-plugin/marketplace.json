@@ -1,0 +1,14 @@
+{
+  "name": "ai-agents",
+  "description": "Collection of Factory Droid skills and plugins.",
+  "owner": {
+    "name": "lifetofree"
+  },
+  "plugins": [
+    {
+      "name": "simple-sdlc",
+      "description": "Seven-role virtual software house with phase-based SDLC, strict file ownership, and TDD workflow for Cloudflare Workers + D1 + React projects.",
+      "source": "./simple-sdlc"
+    }
+  ]
+}
