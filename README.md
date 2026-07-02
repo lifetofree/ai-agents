@@ -48,7 +48,7 @@ This repo is a plugin marketplace containing the `simple-sdlc` plugin:
 | DevOps & Infra | `.github/workflows/`, `wrangler.toml`, secrets |
 | Scrum Master | `STATUS.md` (progress, blockers, retrospectives) |
 
-The reference project is a **Cloudflare Workers + D1 (SQLite) + React/Vite** stack, but the structure adapts to any stack — see [Customization](#customization).
+The skill targets a **Cloudflare Workers + D1 (SQLite) + React/Vite** stack, but the structure adapts to any stack — see [Customization](#customization).
 
 ## Installation
 
@@ -111,7 +111,7 @@ Once installed, invoke it explicitly (`/simple-sdlc` in Claude Code) or just des
 
 ## Customization
 
-The reference constraints (Cloudflare Workers, JWT via `jose`, GMT+7 timezone, 50-user cap, decimal ratings) belong to the original example project. To adapt the skill to your project:
+The skill ships preconfigured for a specific stack and ruleset (Cloudflare Workers + D1, JWT auth, TDD via a smoke-test script). If your project differs, adapt it:
 
 1. Edit **`SKILL.md`** — replace the *Workspace Layout* and *Project Technical Constraints* sections with your stack and rules.
 2. Edit **`job-description.md`** — adjust each role's technical skills to your technologies (e.g., swap Cloudflare Workers for AWS Lambda).
